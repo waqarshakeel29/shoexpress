@@ -75,7 +75,7 @@ export const PopularArticlesSection = () => {
         container
         justifyContent="center"
         alignItems="center"
-        sx={{ minHeight: "100vh", px: 5 }}
+        sx={{ minHeight: "90vh", mb: 5, px: 5 }}
       >
         <Grid item xs={12}>
           <Typography
@@ -85,8 +85,7 @@ export const PopularArticlesSection = () => {
               fontStyle: "normal",
               fontWeight: 400,
               fontSize: "48px",
-              pt: 10,
-              pb: 1,
+              pt: 5,
             }}
           >
             POPULAR RIGHT NOW
