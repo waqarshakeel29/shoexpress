@@ -42,7 +42,7 @@ export const HeadingSection = () => {
       alignItems="center"
       textAlign="right"
       sx={{
-        minHeight: '90vh',
+        minHeight: '100vh',
       }}
     >
       <Grid item xs={12}>
@@ -60,7 +60,7 @@ export const HeadingSection = () => {
               src={images[currentImage]}
               alt="ellipse"
               sx={{
-                height: '90vh',
+                height: '100vh',
               }}
             />
           </motion.div>
@@ -71,9 +71,9 @@ export const HeadingSection = () => {
               animate="visible"
             >
               <Box sx={{ pl: 7, py: 2, textAlign: "left" }}>
-                <Typography variant="h4" fontSize={90} fontFamily='Stencil'>SPORTS SHOES</Typography>
-                <Typography variant="h6" fontSize={30} fontFamily='Yu Gothic'>{"MEN'S COLLECTION"}</Typography>
-                <Typography variant="body1" fontSize={20} fontFamily='Yu Gothic' sx={{width: '500px'}}>
+                <Typography variant="h4" fontSize={90} fontFamily='Stardos Stencil'>SPORTS SHOES</Typography>
+                <Typography variant="h6" fontSize={30} fontFamily='Didact Gothic'>{"MEN'S COLLECTION"}</Typography>
+                <Typography variant="body1" fontSize={20} fontFamily='Didact Gothic' sx={{width: '500px'}}>
                   Find your true style with shoexpress and explore the variety
                   of playful, colourful designs!
                 </Typography>

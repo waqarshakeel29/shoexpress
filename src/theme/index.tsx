@@ -3,6 +3,10 @@ import { createTheme, ThemeOptions } from "@mui/material/styles";
 const themeOptions: ThemeOptions = {
   typography: {
     fontSize: 11,
+    fontFamily: [
+      '"Stardos Stencil"',
+      '"Didact Gothic"'
+    ].join(','),
   },
   palette: {
     mode: "light",

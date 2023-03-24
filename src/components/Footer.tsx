@@ -1,9 +1,9 @@
-import { Grid, styled, Typography } from "@mui/material";
+import { Divider, Grid, styled, Typography } from "@mui/material";
 
 
 
 const FooterSectionHeading = styled(Typography)(() => ({
-    fontFamily: 'Yu Gothic',
+    fontFamily: 'Didact Gothic',
     fontStyle: 'normal',
     fontWeight: 700,
     fontSize: '36px',
@@ -13,7 +13,7 @@ const FooterSectionHeading = styled(Typography)(() => ({
 }));
 
 const FooterSectionContent = styled(Typography)(() => ({
-    fontFamily: 'Yu Gothic',
+    fontFamily: 'Didact Gothic',
     fontStyle: 'normal',
     fontWeight: 400,
     fontSize: '24px',
@@ -30,12 +30,15 @@ export const Footer = () => {
       justifyContent="center"
       textAlign="center"
       sx={{
-        minHeight: "90vh",
+        minHeight: "100vh",
         backgroundColor: '#F6835F',
         pt: 10
       }}
     >
-      <Grid item xs={3}>
+      <Grid item xs={11}>
+      <Divider sx={{ backgroundColor: 'white', height: '3px'}} />
+      </Grid>
+      <Grid item xs={12} sm={6} md={3}>
         <Grid
           container
           justifyContent="center"
@@ -51,7 +54,7 @@ export const Footer = () => {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={6} md={3}>
         <Grid
           container
           justifyContent="center"
@@ -73,7 +76,7 @@ export const Footer = () => {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={6} md={3}>
         <Grid
           container
           justifyContent="center"
@@ -107,7 +110,7 @@ export const Footer = () => {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={6} md={3}>
         <Grid
           container
           justifyContent="center"
