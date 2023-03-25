@@ -24,7 +24,7 @@ export const DrawerNavigationList = () => {
         <ListItemIcon>
           <DashboardIcon />
         </ListItemIcon>
-        <ListItemText primary="Dashboard" />
+        <ListItemText primary="Home" />
       </ListItemButton>
       <ListItemButton
         // onClick={() => {
@@ -34,7 +34,7 @@ export const DrawerNavigationList = () => {
         <ListItemIcon>
           <ShoppingCartIcon />
         </ListItemIcon>
-        <ListItemText primary="Orders" />
+        <ListItemText primary="Shop" />
       </ListItemButton>
       <ListItemButton
         // onClick={() => {
@@ -44,23 +44,13 @@ export const DrawerNavigationList = () => {
         <ListItemIcon>
           <PeopleIcon />
         </ListItemIcon>
-        <ListItemText primary="Customers" />
+        <ListItemText primary="About" />
       </ListItemButton>
       <ListItemButton>
         <ListItemIcon>
           <BarChartIcon />
         </ListItemIcon>
-        <ListItemText primary="Reports" />
-      </ListItemButton>
-      <ListItemButton
-        // onClick={() => {
-        //   navigate(RoutePaths.CONFIGURATION);
-        // }}
-      >
-        <ListItemIcon>
-          <SettingsIcon />
-        </ListItemIcon>
-        <ListItemText primary="Configurations" />
+        <ListItemText primary="Policy" />
       </ListItemButton>
     </React.Fragment>
   );
